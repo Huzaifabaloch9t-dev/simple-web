@@ -1,5 +1,9 @@
 import "./globals.css";
-import Navbar from "../../src/components/navbar";
+
+export const metadata = {
+  title: "MyStore",
+  description: "E-commerce Website",
+};
 
 export default function RootLayout({
   children,
@@ -8,10 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-gray-100">
-        <Navbar />
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
