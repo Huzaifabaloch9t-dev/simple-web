@@ -3,6 +3,7 @@ export default function Footer() {
     <footer className="text-center py-6 bg-gray-900 text-white">
       <h1>footer</h1>
       <p>Email:Huzaifa@gmail.com</p>
+      <p>Phone No:03344286113</p>
     </footer>
   );
 }
