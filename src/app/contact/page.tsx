@@ -8,6 +8,7 @@ export default function Contact() {
       <div className="py-20 text-center">
         <h1 className="text-4xl font-bold">Contact</h1>
         <p>Email: Huzaifa@gmail.com</p>
+        <p>Phone No:03344286113</p>
       </div>
       <Footer />
     </>
